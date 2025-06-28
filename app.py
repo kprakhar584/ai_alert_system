@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 import pandas as pd
 import smtplib
+import os
 from email.mime.text import MIMEText
 
 # Load model and vectorizer
