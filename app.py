@@ -19,7 +19,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['POST','GET'])
 def predict():
     user_input = request.form['message']
     vec_input = vectorizer.transform([user_input])
