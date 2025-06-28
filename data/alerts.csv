@@ -1,0 +1,10 @@
+message,label
+Help! There's a fire!,emergency
+Flood water rising fast,emergency
+I am injured and need help,emergency
+Riots are on,emergency
+Accident occured,emergency
+Natural Danger,emergency
+It's sunny today,non-emergency
+Everything is fine here,non-emergency
+No Danger at the moment,non-emergency
