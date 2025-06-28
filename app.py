@@ -49,4 +49,4 @@ def send_bulk_email(message):
             print(f"✅ Email sent to {recipient}")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host= '0.0.0.0', port=5000)
