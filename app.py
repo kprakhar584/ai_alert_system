@@ -35,8 +35,8 @@ def predict():
     return render_template('index.html', prediction=prediction, alert=alert)
 
 def send_bulk_email(message):
-    sender = os.gentenv("EMAIL_USER")
-    password = os.gentenv("EMAIL_PASS")
+    sender = os.getenv("EMAIL_USER")
+    password = os.getenv("EMAIL_PASS")
 
     for recipient in emails:
         msg = MIMEText(message)
